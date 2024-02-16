@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.Analyzer\Codelyzer.Analysis.Analyzers.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.Build\Codelyzer.Analysis.Build.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.Common\Codelyzer.Analysis.Common.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.CSharp\Codelyzer.Analysis.CSharp.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.Model\Codelyzer.Analysis.Model.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.VisualBasic\Codelyzer.Analysis.VisualBasic.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis.Workspace\Codelyzer.Analysis.Workspace.csproj" />
+    <ProjectReference Include="..\codelyzer\src\Analysis\Codelyzer.Analysis\Codelyzer.Analysis.csproj" />
+  </ItemGroup>
+
+</Project>
