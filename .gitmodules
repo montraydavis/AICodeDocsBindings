@@ -1,0 +1,3 @@
+[submodule "codelyzer"]
+	path = codelyzer
+	url = https://github.com/aws/codelyzer.git
